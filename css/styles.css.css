@@ -831,7 +831,6 @@ team-text .button-web-site-p {
   margin-bottom: 72px;
 }
 .logos-list{
-  display: flex;
   gap: 24px;
 }
 .logos-item{
@@ -847,6 +846,7 @@ team-text .button-web-site-p {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  margin-bottom: 72px;
 }
 .logo-link:hover{
   border-color: #404bbf;
