@@ -832,8 +832,8 @@ team-text .button-web-site-p {
   height: 88px;
 }
 .logos-link {
-  width: 100%;
   height: 100%;
+  width: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
@@ -868,5 +868,6 @@ team-text .button-web-site-p {
   align-items: baseline;
 }
 .footer-div{
-  
+  margin-right: 120px;
 }
+
