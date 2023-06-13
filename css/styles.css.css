@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ span {
   margin-top: 9px;
 }
 .mail {
-  margin-left: 50px;
+  margin-left: -50px;
 }
 .tell {
   margin-left: -70px;
@@ -65,7 +65,9 @@ span {
 .main-link:focus {
   color: #404bbf;
 }
-
+.hero-button{
+  margin-left: 75px;
+}
 .header-nav {
   font-family: "Roboto";
   font-style: normal;
@@ -529,8 +531,7 @@ team-text .button-web-site-p {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  width: 1440px;
-  margin: 0 auto;
+  width: 1158px;
   padding: 0 15px;
 }
 
@@ -803,6 +804,7 @@ team-text .button-web-site-p {
   width: 40px;
   height: 40px;
 }
+
 .team-social-network-link {
   width: 100%;
   height: 100%;
