@@ -523,10 +523,6 @@ team-text .button-web-site-p {
   list-style: none;
   display: flex;
 }
-.container {
-  display: grid;
-  grid-template-rows: auto 1fr;
-}
 .header-p {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -738,6 +734,7 @@ team-text .button-web-site-p {
   margin-bottom: 8px;
 }
 .list-p {
+  display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
@@ -755,6 +752,9 @@ team-text .button-web-site-p {
 }
 .logo-footer {
   display: inline-block;
+}
+.span-logo-p{
+  color: white;
 }
 
 .button-p:hover {
@@ -926,4 +926,7 @@ team-text .button-web-site-p {
 }
 .stolb{
   width: calc((100% - 120px) / 6);
+}
+.dddd{
+  width: calc((100% - 48px) / 3);
 }
