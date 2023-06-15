@@ -834,6 +834,8 @@ team-text .button-web-site-p {
 .logos-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
+  margin: 0;
+  padding: 0;
 }
 .logos-link {
   display: flex;
@@ -869,9 +871,8 @@ team-text .button-web-site-p {
   margin-bottom: 72px;
   margin: 0;
   padding: 0;
-  font-weight: normal;
-  display: block;
 }
+
 .div-footer {
   align-items: baseline;
 }
@@ -896,7 +897,10 @@ team-text .button-web-site-p {
 .footer-list {
   display: flex;
   gap: 16px;
+  margin: 0;
+  padding: 0;
 }
+
 .footer-item {
   width: 40px;
   height: 40px;
