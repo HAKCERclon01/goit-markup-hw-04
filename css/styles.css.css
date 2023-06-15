@@ -62,7 +62,7 @@ span {
   margin-top: 25px;
   margin-left: 100px;
 }
-
+about-
 .main-link:focus {
   color: #404bbf;
 }
@@ -652,8 +652,10 @@ team-text .button-web-site-p {
 }
 .team-tagline {
   margin-bottom: 72px;
-  margin: 0;
-  padding: 0;
+  display: block;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .team-list {
