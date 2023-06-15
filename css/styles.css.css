@@ -879,7 +879,12 @@ team-text .button-web-site-p {
   line-height: 1.11;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding: 0;
+  display: block;
+  font-size: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
