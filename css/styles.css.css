@@ -31,7 +31,7 @@ span {
   color: #4d5ae5;
 }
 .logo {
-  margin-top: 23px;
+  margin-top: -135px;
   margin-left: 50px;
 }
 
@@ -42,30 +42,44 @@ span {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-address {
-  margin-left: 250px;
-  margin-top: 9px;
+
+.address{
+  margin-left: 25px;
+  margin-top: 23px;
 }
-.mail {
-  margin-left: -50px;
-}
-.tell {
-  margin-left: -70px;
+.logo{
+  margin-top: -74px;
 }
 .header-list {
-  margin-left: 180px;
-  margin-top: -100px;
-  margin-top: -45px;
-  gap: 40px
+  gap: 40px;
+  margin-top: -1px;
 }
-.hero-tagline {
-  margin-top: 25px;
-  margin-left: 100px;
+.mail{
+  margin-left: 85px;
 }
-about-
+.tell{
+  margin-left: -85px;
+}
+
 .main-link:focus {
   color: #404bbf;
 }
+
+
+.footer-logo{
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo{
+  margin-top: -15px;
+}
+
 .hero-button {
   margin-left: 75px;
 }
@@ -127,7 +141,7 @@ about-
   letter-spacing: 0.02em;
   color: #434455;
 }
-.list-style .about-text-punctuality {
+.list-style {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -238,7 +252,6 @@ about-
 .team-item {
   background: #ffffff;
 }
-
 .team-img-markguerrero {
   mix-blend-mode: normal;
 }
@@ -530,7 +543,7 @@ team-text .button-web-site-p {
 .container {
   width: 1158px;
   padding: 0 15px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .logo {
@@ -964,3 +977,15 @@ team-text .button-web-site-p {
   display: block;
 }
 
+.footer-logo{
+  margin-top: 10px;
+  margin-left: 170px;
+}
+.footer-text{
+  margin-top: 60px;
+  margin-left: -270px;
+  position: absolute;
+}
+.contacts-div{
+  margin-left: 60px;
+}
