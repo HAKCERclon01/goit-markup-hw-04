@@ -858,12 +858,6 @@ team-text .button-web-site-p {
   color: #8e8f99;
   margin-bottom: 72px;
 }
-.contacts-div{
-  margin: 0;
-  padding: 0;
-  width: 1158px;
-  padding: 0 15px;
-}
 .logos-link:hover {
   border-color: #404bbf;
   color: #404bbf;
@@ -885,7 +879,6 @@ team-text .button-web-site-p {
   line-height: 1.11;
   color: #2e2f42;
   margin-bottom: 72px;
-  margin: 0;
   padding: 0;
 }
 
