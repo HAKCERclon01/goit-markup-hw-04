@@ -56,6 +56,7 @@ span {
   margin-left: 180px;
   margin-top: -100px;
   margin-top: -45px;
+  gap: 40px
 }
 .hero-tagline {
   margin-top: 25px;
@@ -529,6 +530,7 @@ team-text .button-web-site-p {
 .container {
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto
 }
 
 .logo {
@@ -536,6 +538,7 @@ team-text .button-web-site-p {
 }
 
 .nav {
+  display: flex; 
   align-items: center;
 }
 
