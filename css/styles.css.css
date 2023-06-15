@@ -867,6 +867,8 @@ team-text .button-web-site-p {
   line-height: 1.11;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin: 0;
+  padding: 0;
 }
 .div-footer {
   align-items: baseline;
@@ -882,6 +884,8 @@ team-text .button-web-site-p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .team-social-network-link:hover{
