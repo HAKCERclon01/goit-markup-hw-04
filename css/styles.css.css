@@ -897,8 +897,10 @@ team-text .button-web-site-p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  margin: 0;
-  padding: 0;
+  display: block;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .team-social-network-link:hover{
