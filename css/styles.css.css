@@ -807,10 +807,10 @@ team-text .button-web-site-p {
 }
 
 .team-social-network-link {
+  display: flex;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
   background-color: #4d5ae5;
@@ -836,11 +836,11 @@ team-text .button-web-site-p {
   height: 88px;
 }
 .logos-link {
+  display: flex;
   height: 100%;
   width: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  display: flex;
   align-items: center;
   justify-content: center;
   color: #8e8f99;
@@ -882,6 +882,8 @@ team-text .button-web-site-p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin: 0;
+  padding: 0;
 }
 .team-social-network-link:hover{
   background-color: #404bbf;
@@ -895,11 +897,11 @@ team-text .button-web-site-p {
   height: 40px;
 }
 .footer-link {
+  display: flex;
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -920,9 +922,6 @@ team-text .button-web-site-p {
 .button-p:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.hero-link-p {
-  display: block;
 }
 .hero-link-p:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
