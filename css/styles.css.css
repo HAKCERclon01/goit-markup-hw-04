@@ -648,10 +648,15 @@ team-text .button-web-site-p {
 }
 .team-tagline {
   margin-bottom: 72px;
+  margin: 0;
+  padding: 0;
 }
+
 .team-list {
   margin-bottom: 72px;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .team-item {
@@ -872,6 +877,7 @@ team-text .button-web-site-p {
   margin: 0;
   padding: 0;
 }
+
 
 .div-footer {
   align-items: baseline;
