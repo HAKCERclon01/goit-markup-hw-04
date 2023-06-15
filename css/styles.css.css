@@ -583,6 +583,7 @@ team-text .button-web-site-p {
   width: calc((100% - 48px) / 3);
 }
 
+
 .hero-button {
   display: block;
   min-width: 169px;
@@ -805,6 +806,8 @@ team-text .button-web-site-p {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 .team-social-network-item {
   width: 40px;
