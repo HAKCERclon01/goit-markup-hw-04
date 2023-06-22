@@ -13,6 +13,13 @@
     />
     <link rel="stylesheet" href="modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="body">
     <header class="header" style="border-bottom: 1px solid #e7e9fc">
@@ -22,17 +29,17 @@
             >Web<span class="span-logo">Studio</span></a
           >
           <ul class="list header-list">
-            <li class="list-item">
+            <li class="list-item hero-item">
               <a href="./index.html" class="main-link link"
                 ><span class="studio">Studio</span></a
               >
             </li>
-            <li class="list-item">
+            <li class="list-item hero-item">
               <a href="./portfolio.html" class="main-link link"
                 ><span class="portfolio">Portfolio</span></a
               >
             </li>
-            <li class="list-item">
+            <li class="list-item hero-item">
               <a href="" class="main-link link"
                 ><span class="contacts">Contacts</span></a
               >
@@ -67,52 +74,44 @@
           <h2 hidden class="visually-hidden">Strategic Digital Solutions</h2>
           <ul class="about-list list">
             <li class="about-item list-style">
-              <div class="div">
-                <svg class="svg-about" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna"></use>
-                </svg>
-                <h3 class="about-subtitle">Strategy</h3>
-                <p class="about-text">
-                  Our goal is to identify the business problem to walk away with
-                  the perfect and creative solution.
-                </p>
-              </div>
+              <svg class="svg-about" width="64" height="64">
+                <use href="./images/icons.svg#icon-antenna"></use>
+              </svg>
+              <h3 class="about-subtitle">Strategy</h3>
+              <p class="about-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
             </li>
             <li class="about-item list-style">
-              <div class="div">
-                <svg class="svg-about" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
-                <h3 class="about-subtitle">Punctuality</h3>
-                <p class="about-text">
-                  Bring the key message to the brand's audience for the best
-                  price within the shortest possible time.
-                </p>
-              </div>
+              <svg class="svg-about" width="64" height="64">
+                <use href="./images/icons.svg#icon-clock"></use>
+              </svg>
+              <h3 class="about-subtitle">Punctuality</h3>
+              <p class="about-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
             </li>
             <li class="about-item list-style">
-              <div class="div">
-                <svg class="svg-about" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram"></use>
-                </svg>
-                <h3 class="about-subtitle">Diligence</h3>
-                <p class="about-text">
-                  Research and confirm brands that present the strongest digital
-                  growth opportunities and minimize risk.
-                </p>
-              </div>
+              <svg class="svg-about" width="64" height="64">
+                <use href="./images/icons.svg#icon-diagram"></use>
+              </svg>
+              <h3 class="about-subtitle">Diligence</h3>
+              <p class="about-text aaaa">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
             </li>
             <li class="about-item list-style">
-              <div class="div">
-                <svg class="svg-about" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
-                <h3 class="about-subtitle">Technologies</h3>
-                <p class="about-text">
-                  Design practice focused on digital experiences. We bring forth
-                  a deep passion for problem-solving.
-                </p>
-              </div>
+              <svg class="svg-about" width="64" height="64">
+                <use href="./images/icons.svg#icon-astronaut"></use>
+              </svg>
+              <h3 class="about-subtitle">Technologies</h3>
+              <p class="about-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
             </li>
           </ul>
         </div>
@@ -121,27 +120,27 @@
         <div class="container">
           <h2 class="aboutcan-tagline">What are we doing</h2>
           <ul class="aboutcan-list list">
-            <li class="aboutcan-item list-style ">
+            <li class="aboutcan-item list-style">
               <img
-                class="link"
+                class="link aboutcan-img"
                 src="./images/ComputerApp.jpg"
                 alt="Computer Apps"
                 width="360"
                 style="display: block"
               />
             </li>
-            <li class="aboutcan-item list-style ">
+            <li class="aboutcan-item list-style">
               <img
-                class="link"
+                class="link aboutcan-img"
                 src="./images/PhoneApp.jpg"
                 alt="Phone Apps"
                 width="360"
                 style="display: block"
               />
             </li>
-            <li class="aboutcan-item list-style ">
+            <li class="aboutcan-item list-style">
               <img
-                class="link"
+                class="link aboutcan-img"
                 src="./images/MultyPlatform.jpg"
                 alt="MultyPlatform Apps"
                 width="360"
@@ -208,8 +207,9 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -233,10 +233,21 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-network-item list-style">
+                    <a
+                      href=""
+                      class="team-social-network-link"
+                      target="_blank"
+                      rel="noopener noreffere"
+                    >
+                      <svg class="team-svg" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social-network-item list-style">
                     <a
@@ -245,8 +256,9 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social-network-item list-style">
                     <a
@@ -255,18 +267,9 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
-                  </li>
-                  <li class="team-social-network-item list-style">
-                    <a
-                      href=""
-                      class="team-social-network-link"
-                      target="_blank"
-                      rel="noopener noreffere"
-                      ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -290,10 +293,21 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-network-item list-style">
+                    <a
+                      href=""
+                      class="team-social-network-link"
+                      target="_blank"
+                      rel="noopener noreffere"
+                    >
+                      <svg class="team-svg" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social-network-item list-style">
                     <a
@@ -302,8 +316,9 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social-network-item list-style">
                     <a
@@ -312,18 +327,9 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
-                  </li>
-                  <li class="team-social-network-item list-style">
-                    <a
-                      href=""
-                      class="team-social-network-link"
-                      target="_blank"
-                      rel="noopener noreffere"
-                      ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -347,10 +353,21 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram"
-                        ></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-network-item list-style">
+                    <a
+                      href=""
+                      class="team-social-network-link"
+                      target="_blank"
+                      rel="noopener noreffere"
+                    >
+                      <svg class="team-svg" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social-network-item list-style">
                     <a
@@ -359,18 +376,9 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use></svg
-                    ></a>
-                  </li>
-                  <li class="team-social-network-item list-style">
-                    <a
-                      href=""
-                      class="team-social-network-link "
-                      target="_blank"
-                      rel="noopener noreffere"
-                      ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
                   </li>
                   <li class="team-social-network-item list-style">
                     <a
@@ -379,8 +387,9 @@
                       target="_blank"
                       rel="noopener noreffere"
                       ><svg class="team-svg" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -433,51 +442,49 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container special div-footer">
-        <div class="footer-div">
-          <a class="footer-logo logo link-style link" href="./index.html"
-            >Web<span class="logo-footer">Studio</span></a
-          >
-          <p class="footer-text">
-            <span class="span-footer">
-              Increase the flow of customers and sales for your business with
-              digital marketing & growth solutions.
-            </span>
-          </p>
-        </div>
-        <div class="contacts-div">
-          <p class="social-media">Social media</p>
-          <ul class="footer-list list">
-            <li class="footer-item">
-              <a href="" class="footer-link">
-                <svg class="footer-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-              <li class="footer-item">
-              <a href="" class="footer-link ">
-                <svg class="footer-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-              </li>
-              <li class="footer-item">
-              <a href="" class="footer-link">
-                <svg class="footer-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-              </li>
-              <li class="footer-item">
-              <a href="" class="footer-link">
-                <svg class="footer-svg" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-              </li>
-          </ul>
-        </div>
+      <div class="container div-footer">
+        <a class="footer-logo logo link-style link" href="./index.html"
+          >Web<span class="logo-footer">Studio</span></a
+        >
+        <p class="footer-text">
+          <span class="span-footer">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </span>
+        </p>
+      </div>
+      <div class="contacts-div">
+        <p class="social-media">Social media</p>
+        <ul class="footer-list list">
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
